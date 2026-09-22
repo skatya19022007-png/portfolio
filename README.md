@@ -2,8 +2,8 @@
 
 Персональний статичний сайт-портфоліо студентки 3 курсу факультету прикладної математики та інформатики ЛНУ ім. Івана Франка Смірнової Катерини.
 
-* **Жива сторінка (GitHub Pages):** [https://github.com/skatya19022007-png/portfolio](https://github.com/skatya19022007-png/portfolio)
-* **Репозиторій проєкту:** [https://github.com/katyasmirnova/portfolio](https://github.com/katyasmirnova/portfolio)
+* **Жива сторінка (GitHub Pages):** [https://skatya19022007-png.github.io/portfolio/](https://skatya19022007-png.github.io/portfolio/)
+* **Репозиторій проєкту:** [https://github.com/skatya19022007-png/portfolio](https://github.com/skatya19022007-png/portfolio)
 
 --- 
 
