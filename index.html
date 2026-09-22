@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Смірнова Катерина — Студентське портфоліо</title>
+    <meta name="description" content="Персональне студентське портфоліо: навчання, проєкти, навички та захоплення.">
+    <link rel="icon" href="images/icon.png" type="image/png">
+
+    <meta property="og:title" content="Смірнова Катерина — Студентське портфоліо">
+    <meta property="og:description" content="Персональний сайт-портфоліо студента ФПМІ ЛНУ ім. Івана Франка">
+    <meta property="og:image" content="images/icon.jpg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти до основного вмісту</a>
+
+<header class="header">
+    <div class="header__container container">
+        <a href="#about" class="header__logo">
+            <span class="header__logo-badge">SK</span>
+            <span>Portfolio</span>
+        </a>
+
+        <nav class="nav" aria-label="Основна навігація">
+            <details class="nav__disclosure">
+                <summary class="nav__toggle" aria-label="Відкрити меню навігації">
+                    <span class="nav__burger-icon"></span>
+                </summary>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">Про мене</a></li>
+                    <li class="nav__item"><a href="#education-school" class="nav__link">Школа</a></li>
+                    <li class="nav__item"><a href="#education-univ" class="nav__link">Університет</a></li>
+                    <li class="nav__item"><a href="#subjects" class="nav__link">Предмети</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Навички</a></li>
+                    <li class="nav__item"><a href="#hobbies" class="nav__link">Хобі</a></li>
+                    <li class="nav__item"><a href="#books" class="nav__link">Книги</a></li>
+                    <li class="nav__item"><a href="#music" class="nav__link">Музика</a></li>
+                    <li class="nav__item"><a href="#movies" class="nav__link">Фільми</a></li>
+                    <li class="nav__item"><a href="#sports" class="nav__link">Спорт</a></li>
+                    <li class="nav__item"><a href="#travel" class="nav__link">Подорожі</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Проєкти</a></li>
+                    <li class="nav__item"><a href="#goals" class="nav__link">Цілі</a></li>
+                    <li class="nav__item"><a href="#facts" class="nav__link">Факти</a></li>
+                    <li class="nav__item"><a href="#quotes" class="nav__link">Цитати</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакти</a></li>
+                </ul>
+            </details>
+        </nav>
+    </div>
+</header>
+
+<main id="main">
+    <h1 class="visually-hidden">Персональне портфоліо студентки Смірнової Катерини</h1>
+
+    <section id="about" class="section about">
+        <div class="container about__container">
+            <div class="about__media">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/ya.jpg">
+                    <img src="images/ya-mobile.jpg" alt="Фото Смірнової Катерини" class="about__img" width="300" height="300" loading="lazy">
+                </picture>
+            </div>
+            <div class="about__content">
+                <span class="section__badge">Візитівка</span>
+                <h2 class="about__title">Смірнова Катерина</h2>
+                <p class="about__intro">Вітаю! Я студентка факультету прикладної математики та інформатики ЛНУ імені Івана Франка. Поєдную ґрунтовну математичну базу із практичною веброзробкою та дослідженням алгоритмів.</p>
+            </div>
+            <aside class="about__sidebar" aria-label="Контактна та коротка інформація">
+                <h3 class="about__sidebar-title">Швидкі контакти</h3>
+                <address class="about__contacts">
+                    <p class="contact-tag">Email: <a href="mailto:skatya19022007@gmail.com">skatya19022007@gmail.com</a></p>
+                    <p class="contact-tag">Телефон: <a href="tel:+380672954160">+38 (067) 295-41-60</a></p>
+                    <p class="contact-tag">Місто: Львів, Україна</p>
+                </address>
+            </aside>
+        </div>
+    </section>
+
+    <section id="education-school" class="section">
+        <div class="container">
+            <h2 class="section__title">Освіта: Школа</h2>
+            <article class="card card--accent">
+                <h3>Науковий ліцей імені Анатолія Лигуна</h3>
+                <p class="card__meta">Роки навчання: <time datetime="2012">2012</time> — <time datetime="2023">2023</time> | м. Кам'янське</p>
+                <p>Школа запам'яталася поглибленим вивченням математики, інформатики та фізики, участю в учнівських олімпіадах, а також першими практичними проєктами зі створення вебсторінок.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="education-univ" class="section">
+        <div class="container">
+            <h2 class="section__title">Освіта: Університет</h2>
+            <article class="card card--accent">
+                <h3>ЛНУ імені Івана Франка</h3>
+                <p class="card__meta">Факультет прикладної математики та інформатики | Спеціальність «Прикладна математика» (3 курс)</p>
+                <p>Основні напрями навчання: алгоритми та структури даних, моделювання процесів, реляційні бази даних та основи сучасного веброзроблення.</p>
+            </article>
+
+            <div class="table-card">
+                <div class="table-wrapper">
+                    <table class="schedule-table">
+                        <caption>Розклад навчальних занять на семестр</caption>
+                        <thead>
+                        <tr>
+                            <th scope="col">День</th>
+                            <th scope="col">Дисципліна</th>
+                            <th scope="col">Тип заняття</th>
+                            <th scope="col">Аудиторія</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Понеділок</th>
+                            <td>Чисельні методи</td>
+                            <td><span class="badge badge--lecture">Лекція</span></td>
+                            <td>ауд. 266</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Вівторок</th>
+                            <td>Основи хмарних обчислень</td>
+                            <td><span class="badge badge--lab">Лабораторна</span></td>
+                            <td>ауд. 261</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Середа</th>
+                            <td>Основи web програмування</td>
+                            <td><span class="badge badge--lab">Лабораторна</span></td>
+                            <td>ауд. 118а</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Четвер</th>
+                            <td>Бази даних та інформаційні системи</td>
+                            <td><span class="badge badge--lab">Лабораторна</span></td>
+                            <td>ауд. 261</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">П'ятниця</th>
+                            <td>Програмне забезпечення</td>
+                            <td><span class="badge badge--lecture">Лекція</span></td>
+                            <td>ауд. 367</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subjects" class="section">
+        <div class="container">
+            <h2 class="section__title">Улюблені навчальні предмети</h2>
+            <ul class="subjects-list">
+                <li class="subjects-list__item">
+                    <strong>Чисельні методи:</strong> Дають інструменти для математичного моделювання та ефективного розв'язання прикладних задач із великим обсягом обчислень.
+                </li>
+                <li class="subjects-list__item">
+                    <strong>Бази даних та інформаційні системи:</strong> Дозволяють проєктувати надійні моделі зберігання інформації, оптимізувати складні SQL-запити та структурувати масиви даних.
+                </li>
+                <li class="subjects-list__item">
+                    <strong>Архітектура комп'ютерних систем та мереж:</strong> Допомагає зазирнути «під капот» апаратного забезпечення та зрозуміти механізми мережевих протоколів.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section__title">Навички</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-card__header">
+                        <span class="skill-card__name">Python</span>
+                        <span class="skill-card__value">80%</span>
+                    </div>
+                    <div class="skill-card__bar">
+                        <span class="skill-card__fill skill-card__fill--80"></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-card__header">
+                        <span class="skill-card__name">C++ & C#</span>
+                        <span class="skill-card__value">70%</span>
+                    </div>
+                    <div class="skill-card__bar">
+                        <span class="skill-card__fill skill-card__fill--70"></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-card__header">
+                        <span class="skill-card__name">HTML5 & CSS3</span>
+                        <span class="skill-card__value">60%</span>
+                    </div>
+                    <div class="skill-card__bar">
+                        <span class="skill-card__fill skill-card__fill--60"></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-card__header">
+                        <span class="skill-card__name">Командна робота (Soft Skill)</span>
+                        <span class="skill-card__value">85%</span>
+                    </div>
+                    <div class="skill-card__bar">
+                        <span class="skill-card__fill skill-card__fill--85"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2 class="section__title">Хобі та захоплення</h2>
+            <div class="cards-grid">
+                <article class="info-card">
+                    <div class="info-card__icon" aria-hidden="true">📷</div>
+                    <h3 class="info-card__title">Вулична фотографія</h3>
+                    <p>Фіксація геометрії міських вулиць, атмосферних деталей старовинної архітектури та гри світла у кадрі.</p>
+                </article>
+                <article class="info-card">
+                    <div class="info-card__icon" aria-hidden="true">🧠</div>
+                    <h3 class="info-card__title">Психологія</h3>
+                    <p>Дослідження патернів людської взаємодії, механізмів емоційного інтелекту та принципів усвідомленого мислення.</p>
+                </article>
+                <article class="info-card">
+                    <div class="info-card__icon" aria-hidden="true">📚</div>
+                    <h3 class="info-card__title">Література</h3>
+                    <p>Глибоке занурення в класичну художню спадщину, аналіз структури характерів та філософських підтекстів творів.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="books" class="section">
+        <div class="container">
+            <h2 class="section__title">Улюблені книги</h2>
+            <div class="cards-grid">
+                <article class="book-card">
+                    <img src="images/1984.jpg" alt="Обкладинка роману 1984" class="book-card__img" width="150" height="220" loading="lazy">
+                    <div class="book-card__info">
+                        <h3>«1984»</h3>
+                        <p class="book-card__author">Джордж Орвелл</p>
+                        <p>Культова антиутопія про тотальний контроль, методи маніпуляції свідомістю та безцінність індивідуальної свободи.</p>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <img src="images/VolM.jpg" alt="Обкладинка роману Володар мух" class="book-card__img" width="150" height="220" loading="lazy">
+                    <div class="book-card__info">
+                        <h3>«Володар мух»</h3>
+                        <p class="book-card__author">Вільям Ґолдінґ</p>
+                        <p>Тонка алегорія про хисткість правил цивілізації під час раптової ізоляції та первісні інстинкти.</p>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <img src="images/PML.jpg" alt="Обкладинка книги Про мишей і людей" class="book-card__img" width="150" height="220" loading="lazy">
+                    <div class="book-card__info">
+                        <h3>«Про мишей і людей»</h3>
+                        <p class="book-card__author">Джон Стейнбек</p>
+                        <p>Глибока повість про дружбу, самотність, тягар внутрішнього боргу та неможливість втекти від суворої реальності.</p>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <img src="images/GRP.jpg" alt="Обкладинка книги Грозовий перевал" class="book-card__img" width="150" height="220" loading="lazy">
+                    <div class="book-card__info">
+                        <h3>«Грозовий перевал»</h3>
+                        <p class="book-card__author">Емілі Бронте</p>
+                        <p>Похмурий роман про руйнівну силу нестримної пристрасті, фатальну гординю та вендету, що поглинає життя.</p>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <img src="images/K.jpg" alt="Обкладинка книги Колекціонер" class="book-card__img" width="150" height="220" loading="lazy">
+                    <div class="book-card__info">
+                        <h3>«Колекціонер»</h3>
+                        <p class="book-card__author">Джон Фаулз</p>
+                        <p>Напружений психологічний портрет маніакальної одержимості, спроби штучного володіння прекрасним і зіткнення нерівних світів.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="music" class="section">
+        <div class="container">
+            <h2 class="section__title">Улюблена музика</h2>
+            <p class="section__description">Під час розробки та навчання переважно слухаю Ambient, Synthwave та вітчизняний інді-рок.</p>
+            <div class="media-embed">
+                <iframe title="Spotify аудіоплеєр" src="https://open.spotify.com/embed/track/4cOdK2wGLETKBW3PvgPWqT" width="600" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="movies" class="section">
+        <div class="container">
+            <h2 class="section__title">Улюблені фільми та серіали</h2>
+            <div class="cards-grid">
+                <article class="media-card">
+                    <img src="images/interst.jpg" alt="Постер фільму Інтерстеллар" class="media-card__img" width="200" height="300" loading="lazy">
+                    <div class="media-card__content">
+                        <h3>Інтерстеллар</h3>
+                        <p class="media-card__meta">Рік: <time datetime="2014">2014</time> | Оцінка: 9.0/10</p>
+                        <p>Науково-фантастичний епос про межі людського пізнання, теорію відносності та зв'язок крізь час.</p>
+                    </div>
+                </article>
+                <article class="media-card">
+                    <img src="images/kuzma.jpg" alt="Постер фільму Кузьма" class="media-card__img" width="200" height="300" loading="lazy">
+                    <div class="media-card__content">
+                        <h3>Кузьма: Страшно веселий</h3>
+                        <p class="media-card__meta">Рік: <time datetime="2026">2026</time> | Оцінка: 6.5/10</p>
+                        <p>Біографічно-художня стрічка про формування української альтернативної музичної сцени.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="sports" class="section">
+        <div class="container">
+            <h2 class="section__title">Спорт та активності</h2>
+            <ul class="achievements-list">
+                <li class="achievements-list__item">Силовий фітнес та кругові тренування: розвиток витривалості, самодисципліни та емоційне розвантаження.</li>
+                <li class="achievements-list__item">Регулярний біг на дистанції 5–7 км: підтримка тонусу серцево-судинної системи та швидке перезавантаження мозку.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="travel" class="section">
+        <div class="container">
+            <h2 class="section__title">Подорожі та архітектура</h2>
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--large">
+                    <img src="images/ATOM.jpg" alt="Монумент Атоміум" class="gallery__img" width="600" height="400" loading="lazy">
+                    <figcaption class="gallery__caption">Атоміум. Футуристичний символ Брюсселя</figcaption>
+                </figure>
+                <figure class="gallery__item">
+                    <img src="images/GP.jpg" alt="Площа Гран-Плас" class="gallery__img" width="400" height="300" loading="lazy">
+                    <figcaption class="gallery__caption">Гран-Плас. Історичне серце Бельгії</figcaption>
+                </figure>
+                <figure class="gallery__item">
+                    <img src="images/lviv.jpg" alt="Домініканський собор" class="gallery__img" width="400" height="300" loading="lazy">
+                    <figcaption class="gallery__caption">Львів. Архітектурні контрасти центру міста</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section__title">Проєкти та досягнення</h2>
+            <div class="cards-grid">
+                <article class="project-card">
+                    <h3 class="project-card__title">Студентське портфоліо (Mobile First)</h3>
+                    <p class="project-card__tech">Стек: HTML5, CSS3, Flexbox, Grid, BEM</p>
+                    <p>Семантичний адаптивний вебсайт із підтримкою світлої/темної тем, клавіатурної навігації, створений виключно без стороннього коду та JS.</p>
+                    <a href="https://github.com/example/portfolio" class="button button--secondary" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="goals" class="section">
+        <div class="container">
+            <h2 class="section__title">Цілі на найближчий рік</h2>
+            <ol class="goals-list">
+                <li class="goals-list__item">Глибоко опанувати сучасний стандарт ECMAScript (JavaScript ES6+).</li>
+                <li class="goals-list__item">Успішно захистити курсовий проєкт із прикладних алгоритмів.</li>
+                <li class="goals-list__item">Опанувати адміністрування та оптимізацію реляційних баз даних (PostgreSQL).</li>
+                <li class="goals-list__item">Створити перший повноцінний Full-Stack вебзастосунок.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="facts" class="section">
+        <div class="container">
+            <h2 class="section__title">Цікаві факти про мене</h2>
+            <ul class="facts-list">
+                <li class="facts-list__item">Написала свій перший робочий рядок коду в 14 років.</li>
+                <li class="facts-list__item">Зовсім не п'ю каву — віддаю перевагу трав'яним зборам і зеленому чаю.</li>
+                <li class="facts-list__item">Повністю прочитала всі книги оригінального циклу «Дюна».</li>
+                <li class="facts-list__item">Використовую суто кастомну темно-синю контрастну тему в IDE.</li>
+                <li class="facts-list__item">Обожнюю довгі піші маршрути старовинними вуличками без навігатора.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="quotes" class="section">
+        <div class="container">
+            <h2 class="section__title">Улюблені цитати</h2>
+            <blockquote class="quote">
+                <p>«Ворог не розгадає твоєї стратегії, якщо ти її вже забув.»</p>
+                <cite class="quote__cite">— Колективний розум інтернет-фольклору</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contacts" class="section">
+        <div class="container">
+            <h2 class="section__title">Форма зворотного зв'язку</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="user-name" class="form-group__label">Ваше ім'я:</label>
+                    <input type="text" id="user-name" name="name" class="form-group__input" required minlength="2" pattern="^[A-Za-zА-Яа-яІіЇїЄє\s'-]+$" autocomplete="name" placeholder="Олена Шевченко">
+                </div>
+
+                <div class="form-group">
+                    <label for="user-email" class="form-group__label">Електронна пошта:</label>
+                    <input type="email" id="user-email" name="email" class="form-group__input" required autocomplete="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="name@domain.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="topic-select" class="form-group__label">Тема звернення:</label>
+                    <select id="topic-select" name="topic" class="form-group__select" required>
+                        <option value="">-- Оберіть тему --</option>
+                        <option value="collab">Співпраця / Проєкт</option>
+                        <option value="question">Запитання щодо навчання</option>
+                        <option value="other">Інше</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-message" class="form-group__label">Повідомлення:</label>
+                    <textarea id="user-message" name="message" class="form-group__textarea" rows="5" required minlength="10" placeholder="Напишіть ваше повідомлення..."></textarea>
+                </div>
+
+                <div class="form-group form-group--checkbox">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="consent" class="checkbox-label__input" required>
+                        <span>Даю згоду на обробку персональних даних</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="button button--primary">Надіслати повідомлення</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <p>&copy; <time datetime="2026">2026</time> Смірнова Катерина. Усі права захищено.</p>
+        <ul class="footer__socials">
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Профіль Катерини на GitHub">GitHub</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Профіль Катерини в мережі LinkedIn">LinkedIn</a></li>
+        </ul>
+        <a href="#about" class="footer__top-link">Нагору ↑</a>
+    </div>
+</footer>
+
+</body>
+</html>
