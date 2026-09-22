@@ -5,7 +5,7 @@
 * **Жива сторінка (GitHub Pages):** [https://katyasmirnova.github.io/portfolio/](https://katyasmirnova.github.io/portfolio/)
 * **Репозиторій проєкту:** [https://github.com/katyasmirnova/portfolio](https://github.com/katyasmirnova/portfolio)
 
----
+--- 
 
 ## 1. Опис реалізованих брейкпойнтів та трьох макетів
 
